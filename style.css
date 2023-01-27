@@ -1,3 +1,27 @@
 button{
     cursor: pointer;
+    background: transparent;
+    border: 1px solid grey;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+button:hover{
+    background: rgb(181, 181, 181);
+}
+input{
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 5px;
+    display: block;
+    margin: 10px;
+}
+.wrapper{
+    text-align: center;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+p{
+    margin: 0;
 }
